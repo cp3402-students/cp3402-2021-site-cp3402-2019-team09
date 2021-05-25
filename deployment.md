@@ -21,6 +21,12 @@ Wordmove was used to duplicate the website from our virtual machines to the stag
  Wordmove has a built in push and pull actions that we implemented in our command line in order to pull the 
  current version of the staging site and push it when we are done editing it.
 
+- Check if right version of Ruby is activated (3.0.1) - ```ruby -v```
+- If not, install the correct version - ```rvm install 3.0.1```
+- Pull from staging - ```wordmove pull --all -e staging```
+- Pull from production - ```wordmove pull --all -e production```
+- Push to staging - ```wordmove push --all -e staging```
+- Push to production - ```wordmove push --all -e production```
 
 # Version Control
 
