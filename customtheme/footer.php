@@ -13,12 +13,14 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-            <?php printf('Here is some dummy text')?>
+            <?php printf('I think we should put social links here')?>
 
             <span class="sep"> | </span>
+            <img class="alignright"
+                 src=" <?php bloginfo('template_url');?>/images/joinNowButton.jpg" height="50" alt="JoinNowButton">'
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-                printf( esc_html__( 'Here is some more dummy text %1$s.'), '<img class="alignright" src="wp-content/themes/_s/images/joinNowButton.jpg" height="50" alt="JoinNowButton">' );
+
                 ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
