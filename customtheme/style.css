@@ -98,8 +98,9 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
+  font-size: 4em;
   margin: 0.67em 0;
+  text-align: center;
 }
 
 /* Grouping content
@@ -129,7 +130,12 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
+  background-color: #ffdb1a;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1.5em;
+  display: block;
+  width: 100%;
 }
 
 /**
@@ -529,11 +535,11 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-  color: #4169e1;
+  color: white;
 }
 
 a:visited {
-  color: #800080;
+  color: black;
 }
 
 a:hover,
@@ -642,15 +648,22 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
+  background-color: #ffdb1a;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 1.5em;
+  clear: both;
+  bottom: 50px;
   display: block;
   width: 100%;
 }
 
 .main-navigation ul {
-  display: none;
+  display: block;
   list-style: none;
-  margin: 0;
-  padding-left: 0;
+  margin: auto;
+  padding-left: 100px;
+  width: max-content;
 }
 
 .main-navigation ul ul {
@@ -709,7 +722,7 @@ textarea {
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
-  margin: 0 0 1.5em;
+  margin: 100px;
 }
 
 .comment-navigation .nav-links,
@@ -811,7 +824,7 @@ textarea {
 }
 
 .wp-caption-text {
-  text-align: center;
+  text-align: right;
 }
 
 /* Galleries
@@ -866,7 +879,48 @@ textarea {
 
 /*--------------------------------------------------------------
 # Plugins
+
 --------------------------------------------------------------*/
+/*The Events Calendar Plugin*/
+.tribe-events-cal-links .tribe-events-gcal, .tribe-events-cal-links .tribe-events-ical {
+  /* color: #334aff; */
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.62;
+  text-decoration: none;
+}
+
+.tribe-events-event-meta a, .tribe-events-event-meta a:visited {
+  color: #334aff;
+  background-color: transparent;
+}
+
+.tribe-events-single .tribe-events-sub-nav .tribe-events-nav-next a, .tribe-events-single .tribe-events-sub-nav .tribe-events-nav-previous a {
+  color: #5d5d5d;
+  text-decoration: none;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+/*MapPress Plugin*/
+.leaflet-container a {
+  color: #0078A8;
+  background-color: transparent;
+}
+
+.mapp-has-list .mapp-list {
+  background-color: white;
+  border-right: 1px solid lightgray;
+  /* display: flex; */
+  flex-direction: column;
+  max-width: 45%;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.1s;
+  width: 0;
+}
+
 /* Jetpack infinite scroll
 --------------------------------------------- */
 /* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
