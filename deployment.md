@@ -1,0 +1,30 @@
+# Local Environment
+
+First of all, ensure that you have [ScotchBox](https://box.scotch.io/) [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/) installed as they are the dependencies of this local environment.
+
+Clone [WPDistillery](https://github.com/flurinduerst/WPDistillery) using the command line. <br/>
+Install the [Vagrant Hostsupdater](https://github.com/agiledivider/vagrant-hostsupdater) plugin
+(```vagrant plugin install vagrant-hostsupdater```) <br/>
+Double check and edit the ```wpdistillery/config.yml``` if needed. <br/>
+Then run ```vagrant up``` from the directory where the ```Vagrantfile``` is located. <br/>
+Enter http://192.168.33.10/ on your browser to see if it works properly. <br/>
+
+
+
+# Web Hosting
+
+* Staging site - http://3.26.44.161/
+* Production site - http://3.24.124.61/ <br/>
+
+# Version Control
+
+
+
+# Project Management
+* [Github Repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team09)
+* [Trello Board](https://trello.com/b/KB8JacNL/cms-assignment-2-team09)
+* [Slack Channel](https://itatjcu.slack.com/archives/G0XKS1Y8H)
+* [Discord]() <br/>
+
+
+# Automation
