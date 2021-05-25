@@ -10,14 +10,19 @@ Then run ```vagrant up``` from the directory where the ```Vagrantfile``` is loca
 Enter http://192.168.33.10/ on your browser to see if it works properly. <br/>
 
 
-
 # Web Hosting
 
 * Staging site - http://3.26.44.161/
 * Production site - http://3.24.124.61/ <br/>
 
+
 # Version Control
 
+Version control will compare the old and the new version of the code or file in order to
+keep track of the changes that has been made by every member of the repository. <br/>
+It allows team members to create a new branch and edit from that branch then merge the
+main branch and the develop branch together as GitFlow prevents the commits from conflicting
+and overwriting other people’s commit. <br/>
 
 
 # Project Management
