@@ -15,6 +15,12 @@ Enter http://192.168.33.10/ on your browser to see if it works properly. <br/>
 * Staging site - http://3.26.44.161/
 * Production site - http://3.24.124.61/ <br/>
 
+## Wordmove
+
+Wordmove was used to duplicate the website from our virtual machines to the staging and production websites.
+ Wordmove has a built in push and pull actions that we implemented in our command line in order to pull the 
+ current version of the staging site and push it when we are done editing it.
+
 
 # Version Control
 
