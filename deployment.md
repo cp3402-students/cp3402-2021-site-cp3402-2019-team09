@@ -28,3 +28,9 @@ Enter http://192.168.33.10/ on your browser to see if it works properly. <br/>
 
 
 # Automation
+
+* Trello Bot - Trello Bot: Displays a notice showing completed cards into the discord server where 
+we hold our communication channels.
+* GitHub Webhook - Github Webhook integration with Discord: Shows all pull, push, merge activity as a notice 
+onto the discord server to track each team member's progress.
+
