@@ -37,6 +37,10 @@ block. And select the name of the Form that you created. And Finished!
 Smart Slider was used to create the main slider on the landing page. Using SmartSlider is a simple way to create a slider for your WordPress Site! we used to bring
 attention to the main home of our site.
 
+To create/edit a slider, you can access the menu at the top of the screen 
+
+![snapshot](/documentation_snapshots/smartslider.PNG)
+
 # Coloring
 
 We used a basic layout of yellow, white and black, these colours were chosen for the Cohesiveness. Since, each color helps the other stand out. For example, the yellow and white colours
