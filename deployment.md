@@ -12,7 +12,7 @@ Enter http://192.168.33.10/ on your browser to see if it works properly. <br/>
 
 # Web Hosting
 
-* Staging site - http://3.26.44.161/
+* Staging site - http://3.106.119.43/
 * Production site - http://3.24.124.61/ <br/>
 
 ## Wordmove
@@ -41,7 +41,7 @@ and overwriting other people’s commit. <br/>
 * [Github Repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team09)
 * [Trello Board](https://trello.com/b/KB8JacNL/cms-assignment-2-team09)
 * [Slack Channel](https://itatjcu.slack.com/archives/G0XKS1Y8H)
-* [Discord]() <br/>
+* [Discord](https://discord.gg/wMEfJVcY2E) <br/>
 
 
 # Automation
@@ -50,4 +50,8 @@ and overwriting other people’s commit. <br/>
 we hold our communication channels.
 * GitHub Webhook - Github Webhook integration with Discord: Shows all pull, push, merge activity as a notice 
 onto the discord server to track each team member's progress.
+* Linting bot - Linting bot was added to the Github Repo in order to check syntax errors when doing a pull request. Was
+used to make sure not bugs were carried when merging
+  
 
+  
