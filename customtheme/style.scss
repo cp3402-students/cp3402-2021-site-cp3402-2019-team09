@@ -71,10 +71,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 footer {
   background-color: $footer-background-colour;
   color: #FFFFFF;
-  text-align: left;
-  padding: 1.5em;
+  text-align: center;
+  padding: 2.5em;
   clear: both;
-  position: fixed;
+  position: relative;
   bottom: 0;
   display: block;
   width: 100%;
@@ -145,7 +145,7 @@ a {
   text-align: center;
   padding: 1.5em;
   //position: fixed;
-  display: block;
+  //display: block;
   width: 100%
 }
 
@@ -1038,4 +1038,12 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5em;
+}
+
+a {
+  background-color: transparent;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1.5em;
+  width: 100%;
 }
