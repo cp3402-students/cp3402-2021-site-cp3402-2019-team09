@@ -22,3 +22,5 @@ MapPress Maps was used in the Location page. It visually show where the Jazz Clu
 
 
 * [WPForms](https://wpforms.com/?gclid=Cj0KCQjwna2FBhDPARIsACAEc_Ve7GLXMgNwwbViRnRvZ-4Op8xhiFcRwjQjKecSfphnMLydsg14nQEaAhUEEALw_wcB) <br/>
+WPForms was used to create our Contact and Member forms, It allows the users to add their information directly onto the site, this will include anything necessary for its use-age. All Without having to leave the page their on or download a file. <br/>
+  
