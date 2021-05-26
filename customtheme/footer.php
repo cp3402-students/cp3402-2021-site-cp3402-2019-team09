@@ -15,9 +15,10 @@
     <div class="site-info">
         <!--            --><?php //printf('I think we should put social links here')?>
 
-        <!--            <span class="sep"> | </span>-->
+        <a href="http://3.24.124.61/?page_id=22">
         <img class="alignright"
              src="<?php bloginfo('template_url'); ?>/images/joinNowButton.jpg" height="50" alt="JoinNowButton">
+        </a>
         <a href="https://www.facebook.com/tsvjazzclub/">
             <img class="alignleft" src="<?php bloginfo('template_url'); ?>/images/icon-fb.png" height="50"
                  alt="Facebook">

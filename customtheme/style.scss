@@ -106,7 +106,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 4em;
+  font-size: 2em;
   margin: 0.67em 0;
   text-align: center;
 }
@@ -434,11 +434,13 @@ h3,
 h4,
 h5,
 h6 {
-  clear: both;
+  clear: none;
 }
 
 p {
   margin-bottom: 1.5em;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
 dfn,
@@ -949,6 +951,72 @@ textarea {
   transition-duration: .1s;
   width: 0;
 }
+
+/*WPForms Plugin Contact Form*/
+div.wpforms-container-full, div.wpforms-container-full .wpforms-form * {
+  background: none;
+  border: white;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  float: none;
+  font-size: 100%;
+  height: auto;
+  letter-spacing: normal;
+  list-style: none;
+  outline: none;
+  position: static;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  width: auto;
+  visibility: visible;
+  overflow: visible;
+  margin: 0;
+  padding-left: 1em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+/*WPForms Membership Form*/
+div.wpforms-container-full, div.wpforms-container-full .wpforms-form * {
+  background: none;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  float: none;
+  font-size: 100%;
+  height: auto;
+  letter-spacing: normal;
+  list-style: none;
+  outline: none;
+  position: static;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  width: auto;
+  visibility: visible;
+  overflow: visible;
+  margin: 0;
+  padding-left: 2.5em;
+  padding-right: 3em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
 
 /* Jetpack infinite scroll
 --------------------------------------------- */
