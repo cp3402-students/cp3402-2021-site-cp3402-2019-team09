@@ -12,7 +12,7 @@ Enter http://192.168.33.10/ on your browser to see if it works properly. <br/>
 
 # Web Hosting
 
-* Staging site - http://3.26.44.161/
+* Staging site - http://3.106.119.43/
 * Production site - http://3.24.124.61/ <br/>
 
 ## Wordmove

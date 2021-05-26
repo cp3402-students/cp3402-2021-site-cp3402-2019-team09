@@ -98,7 +98,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 4em;
+  font-size: 2em;
   margin: 0.67em 0;
   text-align: center;
 }
@@ -925,7 +925,7 @@ textarea {
 /*WPForms Plugin Contact Form*/
 div.wpforms-container-full, div.wpforms-container-full .wpforms-form * {
   background: none;
-  border: none;
+  border: white;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   float: none;
