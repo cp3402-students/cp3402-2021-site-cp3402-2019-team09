@@ -41,14 +41,13 @@ and overwriting other people’s commit. <br/>
 * [Github Repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team09)
 * [Trello Board](https://trello.com/b/KB8JacNL/cms-assignment-2-team09)
 * [Slack Channel](https://itatjcu.slack.com/archives/G0XKS1Y8H)
-* [Discord](https://discord.gg/wMEfJVcY2E) <br/>
+* [Discord]() <br/>
 
 
 # Automation
 
 * Trello Bot - Trello Bot: Displays a notice showing completed cards into the discord server where 
 we hold our communication channels.
-* GitHub Webhook - GitHub Webhook integration with Discord: Shows all pull, push, merge activity as a notice 
+* GitHub Webhook - Github Webhook integration with Discord: Shows all pull, push, merge activity as a notice 
 onto the discord server to track each team member's progress.
-* Php Linting Bot - Php linting bot for GitHub: Checks php syntax for all pull requests created. 
-  Will grant pass or fail status once test is completed.
+
