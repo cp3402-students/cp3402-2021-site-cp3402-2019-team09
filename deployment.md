@@ -41,7 +41,7 @@ and overwriting other people’s commit. <br/>
 * [Github Repository](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team09)
 * [Trello Board](https://trello.com/b/KB8JacNL/cms-assignment-2-team09)
 * [Slack Channel](https://itatjcu.slack.com/archives/G0XKS1Y8H)
-* [Discord]() <br/>
+* [Discord](https://discord.gg/wMEfJVcY2E) <br/>
 
 
 # Automation
