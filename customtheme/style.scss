@@ -559,7 +559,7 @@ a {
 }
 
 a:visited {
-  color: white;
+  color: black;
 
 }
 
@@ -576,15 +576,6 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
-}
-
-a {
-  background-color: transparent;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 1.5em;
-  width: 100%;
-  transition: 0.3s;
 }
 
 /* Forms
@@ -1117,3 +1108,10 @@ div.wpforms-container-full, div.wpforms-container-full .wpforms-form * {
   margin-bottom: 1.5em;
 }
 
+a {
+  background-color: transparent;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1.5em;
+  width: 100%;
+}
